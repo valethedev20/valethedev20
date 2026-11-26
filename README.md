@@ -1,53 +1,43 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg" />
-  <img alt="Valentine Agam — Software Engineer &amp; ICT Officer, Hospital Miri" src="assets/banner-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/plate-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/plate-light.svg" />
+  <img alt="Valentine Agam — Software Engineer, Hospital Miri" src="assets/plate-dark.svg" width="100%" />
 </picture>
 
-<p>
-  <a href="https://www.valeport.space">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/btn-portfolio-light.svg" />
-      <img alt="Portfolio — valeport.space" src="assets/btn-portfolio-dark.svg" height="38" />
-    </picture>
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/valentine-a-a278a7254">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/btn-linkedin-light.svg" />
-      <img alt="LinkedIn" src="assets/btn-linkedin-dark.svg" height="38" />
-    </picture>
-  </a>
-</p>
+<br />
 
-### About this account
+Building and maintaining internal systems at **Hospital Miri, Jabatan Kesihatan Sarawak**.
+This account is dedicated to hospital engineering work — reliable daily operations, strict data privacy, and clean, maintainable software.
 
-I'm a software engineer at **Hospital Miri, Jabatan Kesihatan Sarawak**. This account is dedicated to developing and maintaining the hospital's internal systems — focused on dependable daily operations, strict data privacy, and maintainable software.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/focus-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/focus-light.svg" />
-  <img alt="Core focus areas: Maintain, Build, Report" src="assets/focus-dark.svg" width="100%" />
-</picture>
-
-### Tech stack
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg" />
-  <img alt="Tech stack: Backend, Frontend, Data, and Infra &amp; tools" src="assets/stack-dark.svg" width="100%" />
-</picture>
-
-### Working principles
-
-| # | Principle | Practice |
-| :--- | :--- | :--- |
-| `01` | **Reliability first** | Hospital staff depend on these systems every day. |
-| `02` | **Data privacy by default** | No patient data in repositories, ever. |
-| `03` | **Small, reviewed changes** | Documented, testable, and easy to roll back. |
+[valeport.space](https://www.valeport.space) &nbsp;/&nbsp; [linkedin](https://www.linkedin.com/in/valentine-a-a278a7254)
 
 ---
 
-<sub>For collaboration or system enquiries, connect on <a href="https://www.linkedin.com/in/valentine-a-a278a7254">LinkedIn</a> or visit <a href="https://www.valeport.space">valeport.space</a>.</sub>
+### Scope
+
+| No. | Area | Focus |
+| :--- | :--- | :--- |
+| `01` | **Maintain** | Bug fixes, updates, and keeping internal systems running reliably every day. |
+| `02` | **Build** | Web apps and backend services supporting daily clinical and hospital workflows. |
+| `03` | **Report** | Data pipelines and dashboards turning operational records into usable insight. |
+
+### Stack
+
+```text
+backend   Python / FastAPI / Flask / Node.js
+frontend  TypeScript / JavaScript / React / Next.js / Tailwind CSS
+data      PostgreSQL / MongoDB / Supabase
+infra     Docker / Linux / Git / GitHub / VS Code
+```
+
+### Principles
+
+`01` &nbsp; **Reliability first** — hospital staff depend on these systems every day.
+
+`02` &nbsp; **Data privacy by default** — no patient data in repositories, ever.
+
+`03` &nbsp; **Small, reviewed changes** — documented and straightforward to roll back.
+
+---
+
+<sub>For collaboration or system enquiries, reach me on <a href="https://www.linkedin.com/in/valentine-a-a278a7254">LinkedIn</a> or <a href="https://www.valeport.space">valeport.space</a>.</sub>

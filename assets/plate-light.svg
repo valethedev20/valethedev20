@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="272" viewBox="0 0 900 272" role="img" aria-label="Valentine Agam — Software Engineer, Hospital Miri">
+  <defs>
+    <clipPath id="plate-light">
+      <rect width="900" height="272" rx="3"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#plate-light)">
+    <!-- Matte chassis -->
+    <rect width="900" height="272" fill="#F7F6F2"/>
+
+    <!-- Top & bottom structural rails -->
+    <rect x="0" y="0" width="900" height="40" fill="#EFECE6"/>
+    <rect x="0" y="216" width="900" height="56" fill="#EFECE6"/>
+
+    <!-- Horizontal machined hairlines -->
+    <line x1="0" y1="40.5" x2="900" y2="40.5" stroke="#D5D2CA" stroke-width="1"/>
+    <line x1="0" y1="216.5" x2="900" y2="216.5" stroke="#D5D2CA" stroke-width="1"/>
+
+    <!-- Continuous primary vertical structural axis (y=0 to y=272) -->
+    <line x1="636.5" y1="0" x2="636.5" y2="272" stroke="#D5D2CA" stroke-width="1"/>
+
+    <!-- Secondary vertical dividers -->
+    <line x1="168.5" y1="0" x2="168.5" y2="40" stroke="#D5D2CA" stroke-width="1"/>
+    <line x1="336.5" y1="216" x2="336.5" y2="272" stroke="#D5D2CA" stroke-width="1"/>
+
+    <!-- Top rail metadata -->
+    <rect x="28" y="16.5" width="7" height="7" fill="#E64500"/>
+    <text x="45" y="24" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#111214">valethedev20</text>
+
+    <text x="188" y="24" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#7C8088">Hospital Miri / Jabatan Kesihatan Sarawak</text>
+
+    <text x="656" y="24" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#50545C">04&#176;23&#8242;N  113&#176;59&#8242;E</text>
+
+    <!-- Hero typography -->
+    <text x="28" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="-2.2" fill="#111214">Valentine Agam</text>
+    <text x="30" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#50545C">Software Engineer &#8212; ICT Officer (MySTEP)</text>
+
+    <!-- Right-column machined hardware detail -->
+    <circle cx="674" cy="74" r="1.7" fill="#D1CDC3"/><circle cx="692" cy="74" r="1.7" fill="#D1CDC3"/><circle cx="710" cy="74" r="1.7" fill="#D1CDC3"/><circle cx="728" cy="74" r="1.7" fill="#D1CDC3"/><circle cx="746" cy="74" r="1.7" fill="#D1CDC3"/><circle cx="764" cy="74" r="1.7" fill="#D1CDC3"/><circle cx="782" cy="74" r="1.7" fill="#D1CDC3"/><circle cx="800" cy="74" r="1.7" fill="#D1CDC3"/><circle cx="818" cy="74" r="1.7" fill="#D1CDC3"/><circle cx="836" cy="74" r="1.7" fill="#D1CDC3"/><circle cx="854" cy="74" r="1.7" fill="#D1CDC3"/><circle cx="674" cy="89" r="1.7" fill="#D1CDC3"/><circle cx="692" cy="89" r="1.7" fill="#D1CDC3"/><circle cx="710" cy="89" r="1.7" fill="#D1CDC3"/><circle cx="728" cy="89" r="1.7" fill="#D1CDC3"/><circle cx="746" cy="89" r="1.7" fill="#D1CDC3"/><circle cx="764" cy="89" r="1.7" fill="#D1CDC3"/><circle cx="782" cy="89" r="1.7" fill="#D1CDC3"/><circle cx="800" cy="89" r="1.7" fill="#D1CDC3"/><circle cx="818" cy="89" r="2.6" fill="#E64500"/><circle cx="836" cy="89" r="1.7" fill="#D1CDC3"/><circle cx="854" cy="89" r="1.7" fill="#D1CDC3"/><circle cx="674" cy="104" r="1.7" fill="#D1CDC3"/><circle cx="692" cy="104" r="1.7" fill="#D1CDC3"/><circle cx="710" cy="104" r="1.7" fill="#D1CDC3"/><circle cx="728" cy="104" r="1.7" fill="#D1CDC3"/><circle cx="746" cy="104" r="1.7" fill="#D1CDC3"/><circle cx="764" cy="104" r="1.7" fill="#D1CDC3"/><circle cx="782" cy="104" r="1.7" fill="#D1CDC3"/><circle cx="800" cy="104" r="1.7" fill="#D1CDC3"/><circle cx="818" cy="104" r="1.7" fill="#D1CDC3"/><circle cx="836" cy="104" r="1.7" fill="#D1CDC3"/><circle cx="854" cy="104" r="1.7" fill="#D1CDC3"/><circle cx="674" cy="119" r="1.7" fill="#D1CDC3"/><circle cx="692" cy="119" r="1.7" fill="#D1CDC3"/><circle cx="710" cy="119" r="1.7" fill="#D1CDC3"/><circle cx="728" cy="119" r="1.7" fill="#D1CDC3"/><circle cx="746" cy="119" r="1.7" fill="#D1CDC3"/><circle cx="764" cy="119" r="1.7" fill="#D1CDC3"/><circle cx="782" cy="119" r="1.7" fill="#D1CDC3"/><circle cx="800" cy="119" r="1.7" fill="#D1CDC3"/><circle cx="818" cy="119" r="1.7" fill="#D1CDC3"/><circle cx="836" cy="119" r="1.7" fill="#D1CDC3"/><circle cx="854" cy="119" r="1.7" fill="#D1CDC3"/><circle cx="674" cy="134" r="1.7" fill="#D1CDC3"/><circle cx="692" cy="134" r="1.7" fill="#D1CDC3"/><circle cx="710" cy="134" r="1.7" fill="#D1CDC3"/><circle cx="728" cy="134" r="1.7" fill="#D1CDC3"/><circle cx="746" cy="134" r="1.7" fill="#D1CDC3"/><circle cx="764" cy="134" r="1.7" fill="#D1CDC3"/><circle cx="782" cy="134" r="1.7" fill="#D1CDC3"/><circle cx="800" cy="134" r="1.7" fill="#D1CDC3"/><circle cx="818" cy="134" r="1.7" fill="#D1CDC3"/><circle cx="836" cy="134" r="1.7" fill="#D1CDC3"/><circle cx="854" cy="134" r="1.7" fill="#D1CDC3"/>
+    <line x1="674" y1="184" x2="854" y2="184" stroke="#D5D2CA" stroke-width="1"/>
+    <line x1="674" y1="166" x2="674" y2="184" stroke="#87837A" stroke-width="1.2"/><line x1="683" y1="173" x2="683" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="692" y1="173" x2="692" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="701" y1="173" x2="701" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="710" y1="173" x2="710" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="719" y1="166" x2="719" y2="184" stroke="#87837A" stroke-width="1.2"/><line x1="728" y1="173" x2="728" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="737" y1="173" x2="737" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="746" y1="173" x2="746" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="755" y1="173" x2="755" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="764" y1="166" x2="764" y2="184" stroke="#87837A" stroke-width="1.2"/><line x1="773" y1="173" x2="773" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="782" y1="173" x2="782" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="791" y1="173" x2="791" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="800" y1="162" x2="800" y2="184" stroke="#E64500" stroke-width="1.6"/><line x1="809" y1="166" x2="809" y2="184" stroke="#87837A" stroke-width="1.2"/><line x1="818" y1="173" x2="818" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="827" y1="173" x2="827" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="836" y1="173" x2="836" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="845" y1="173" x2="845" y2="184" stroke="#C2BEB5" stroke-width="1"/><line x1="854" y1="166" x2="854" y2="184" stroke="#87837A" stroke-width="1.2"/>
+    <text x="674" y="198" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9" fill="#7C8088">00</text><text x="719" y="198" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9" fill="#7C8088">05</text><text x="764" y="198" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9" fill="#7C8088">10</text><text x="809" y="198" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9" fill="#7C8088">15</text><text x="854" y="198" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9" fill="#7C8088">20</text>
+
+    <!-- Bottom spec rail -->
+    <text x="28" y="236" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#7C8088">focus</text>
+    <text x="28" y="255" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#111214">Full-Stack / Backend / Data &amp; AI</text>
+
+    <text x="356" y="236" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#7C8088">scope</text>
+    <text x="356" y="255" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#111214">Internal Hospital Systems</text>
+
+    <text x="656" y="236" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#7C8088">base</text>
+    <text x="656" y="255" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#111214">Miri, Sarawak, Malaysia</text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="899" height="271" rx="3" fill="none" stroke="#D5D2CA" stroke-width="1"/>
+</svg>
