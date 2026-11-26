@@ -1,23 +1,56 @@
-<div align="center">
+<p align="center">
+  <img src="banner.svg" alt="Valentine Agam — Software Engineer, Hospital Miri" width="100%" />
+</p>
 
-## Valentine Agam
-
-**Software Engineer · ICT Officer (MySTEP), Hospital Miri — Jabatan Kesihatan Sarawak**
-
-Maintaining and developing internal hospital systems.
-
-[LinkedIn](https://www.linkedin.com/in/valentine-a-a278a7254) · [Portfolio](https://www.valeport.space) · Sarawak, Malaysia
-
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/valentine-a-a278a7254"><b>LinkedIn</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.valeport.space"><b>Portfolio</b></a>
+  &nbsp;·&nbsp;
+  📍 Sarawak, Malaysia
+</p>
 
 ---
 
-### About this account
+### 🏥 About this account
 
-This account is used for development and maintenance of hospital systems at Hospital Miri.
+I'm a software engineer at **Hospital Miri, Jabatan Kesihatan Sarawak**.
+This account is where I develop and maintain the hospital's internal systems.
 
-### Tech stack
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>🛠️ Maintain</b><br/>
+      <sub>Bug fixes, updates and keeping internal systems running reliably.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>🚀 Build</b><br/>
+      <sub>Web apps and backend services that support daily hospital operations.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>📊 Report</b><br/>
+      <sub>Data pipelines and dashboards that turn records into usable insight.</sub>
+    </td>
+  </tr>
+</table>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,fastapi,flask,react,nextjs,tailwind,postgres,docker,linux,git" alt="Tech stack" />
+### 🧰 Tech stack
+
+| | |
+|---|---|
+| **Backend** | <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs" alt="Python, FastAPI, Flask, Node.js" height="36" /> |
+| **Frontend** | <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind" alt="TypeScript, JavaScript, React, Next.js, Tailwind" height="36" /> |
+| **Data** | <img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase" alt="PostgreSQL, MongoDB, Supabase" height="36" /> |
+| **Infra & tools** | <img src="https://skillicons.dev/icons?i=docker,linux,git,github,vscode" alt="Docker, Linux, Git, GitHub, VS Code" height="36" /> |
+
+### 🤝 Working principles
+
+- **Reliability first:** hospital staff depend on these systems every day.
+- **Data privacy by default:** no patient data in repositories, ever.
+- **Small, reviewed changes:** documented and easy to roll back.
+
+---
+
+<p align="center">
+  <sub>For collaboration or system enquiries, reach me on <a href="https://www.linkedin.com/in/valentine-a-a278a7254">LinkedIn</a>.</sub>
 </p>
