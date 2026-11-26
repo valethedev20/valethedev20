@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="304" viewBox="0 0 900 304" role="img" aria-label="Technical specification: Scope, Stack, and Operating Principles">
+  <defs>
+    <clipPath id="spec-clip-light">
+      <rect width="900" height="304" rx="3"/>
+    </clipPath>
+    <linearGradient id="spec-sheen-light" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAF9F6"/>
+      <stop offset="100%" stop-color="#F5F4F0"/>
+    </linearGradient>
+    <filter id="spec-grain-light" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#spec-clip-light)">
+    <rect width="900" height="304" fill="url(#spec-sheen-light)"/>
+    <rect width="900" height="304" filter="url(#spec-grain-light)" opacity="0.025"/>
+
+    <!-- Top header rail & bottom principles rail -->
+    <rect x="0" y="0" width="900" height="36" fill="#ECEAE3"/>
+    <rect x="0" y="220" width="900" height="84" fill="#ECEAE3"/>
+
+    <!-- Specular bevel -->
+    <line x1="1" y1="1.5" x2="899" y2="1.5" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="1"/>
+
+    <!-- Structural grid lines -->
+    <line x1="0" y1="36.5" x2="900" y2="36.5" stroke="#D2CEC4" stroke-width="1"/>
+    <line x1="0" y1="220.5" x2="900" y2="220.5" stroke="#D2CEC4" stroke-width="1"/>
+    <line x1="450.5" y1="0" x2="450.5" y2="220" stroke="#D2CEC4" stroke-width="1"/>
+
+    <!-- Bottom 3-column dividers -->
+    <line x1="300.5" y1="220" x2="300.5" y2="304" stroke="#D2CEC4" stroke-width="1"/>
+    <line x1="600.5" y1="220" x2="600.5" y2="304" stroke="#D2CEC4" stroke-width="1"/>
+
+    <!-- Top header labels -->
+    <text x="28" y="22" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="500" fill="#0F1012">01 / scope</text>
+    <text x="424" y="22" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#7A7E86">operations</text>
+
+    <text x="478" y="22" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="500" fill="#0F1012">02 / stack</text>
+    <text x="872" y="22" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#7A7E86">production</text>
+
+    <!-- LEFT: 01 / Scope (3 clean rows) -->
+    <line x1="28" y1="98.5" x2="424" y2="98.5" stroke="#E2DFD7" stroke-width="1"/>
+    <line x1="28" y1="159.5" x2="424" y2="159.5" stroke="#E2DFD7" stroke-width="1"/>
+
+    <text x="28" y="65" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#E64500">01</text>
+    <text x="60" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#0F1012">Maintain</text>
+    <text x="60" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#4D5159">Bug fixes, updates, and reliable daily system uptime.</text>
+
+    <text x="28" y="126" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#E64500">02</text>
+    <text x="60" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#0F1012">Build</text>
+    <text x="60" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#4D5159">Web apps and backend services for hospital workflows.</text>
+
+    <text x="28" y="187" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#E64500">03</text>
+    <text x="60" y="187" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#0F1012">Report</text>
+    <text x="60" y="206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#4D5159">Data pipelines and dashboards turning records into insight.</text>
+
+    <!-- RIGHT: 02 / Stack (4 crisp tabular spec rows) -->
+    <line x1="478" y1="82.5" x2="872" y2="82.5" stroke="#E2DFD7" stroke-width="1"/>
+    <line x1="478" y1="128.5" x2="872" y2="128.5" stroke="#E2DFD7" stroke-width="1"/>
+    <line x1="478" y1="174.5" x2="872" y2="174.5" stroke="#E2DFD7" stroke-width="1"/>
+
+    <text x="478" y="64" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#7A7E86">backend</text>
+    <text x="552" y="64" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#0F1012">Python / FastAPI / Flask / Node.js</text>
+
+    <text x="478" y="110" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#7A7E86">frontend</text>
+    <text x="552" y="110" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#0F1012">TypeScript / JS / React / Next.js / Tailwind</text>
+
+    <text x="478" y="156" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#7A7E86">data</text>
+    <text x="552" y="156" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#0F1012">PostgreSQL / MongoDB / Supabase</text>
+
+    <text x="478" y="202" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#7A7E86">infra</text>
+    <text x="552" y="202" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#0F1012">Docker / Linux / Git / GitHub / VS Code</text>
+
+    <!-- BOTTOM: 03 / Operating Principles (3 machined columns) -->
+    <rect x="28" y="241" width="5" height="5" fill="#E64500"/>
+    <text x="41" y="247" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0F1012">Reliability first</text>
+    <text x="28" y="268" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#4D5159">Hospital staff depend on these</text>
+    <text x="28" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#4D5159">systems every single day.</text>
+
+    <rect x="328" y="241" width="5" height="5" fill="#E64500"/>
+    <text x="341" y="247" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0F1012">Privacy by default</text>
+    <text x="328" y="268" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#4D5159">No patient data in repositories,</text>
+    <text x="328" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#4D5159">under any circumstance.</text>
+
+    <rect x="628" y="241" width="5" height="5" fill="#E64500"/>
+    <text x="641" y="247" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0F1012">Reversible changes</text>
+    <text x="628" y="268" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#4D5159">Small, reviewed, documented</text>
+    <text x="628" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#4D5159">releases built for clean rollback.</text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="899" height="303" rx="3" fill="none" stroke="#D2CEC4" stroke-width="1"/>
+</svg>
