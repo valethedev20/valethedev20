@@ -36,7 +36,7 @@ This account is where I develop and maintain the hospital's internal systems.
 
 ### 🧰 Tech stack
 
-| | |
+| Area | Tools |
 |---|---|
 | **Backend** | <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs" alt="Python, FastAPI, Flask, Node.js" height="36" /> |
 | **Frontend** | <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind" alt="TypeScript, JavaScript, React, Next.js, Tailwind" height="36" /> |
