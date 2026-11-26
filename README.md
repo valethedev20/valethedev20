@@ -6,9 +6,7 @@
 
 Maintaining and developing internal hospital systems.
 
-<a href="https://www.linkedin.com/in/valentine-a-a278a7254"><img src="https://img.shields.io/badge/LinkedIn-Valentine_Agam-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://www.valeport.space"><img src="https://img.shields.io/badge/Portfolio-valeport.space-24292f?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-<img src="https://img.shields.io/badge/Location-Sarawak,_Malaysia-2EA043?style=flat-square" alt="Sarawak, Malaysia" />
+[LinkedIn](https://www.linkedin.com/in/valentine-a-a278a7254) · [Portfolio](https://www.valeport.space) · Sarawak, Malaysia
 
 </div>
 
