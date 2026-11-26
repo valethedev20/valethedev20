@@ -51,23 +51,15 @@
     <text x="630" y="23" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#9BA2AE">04&#176;23&#8242;N  113&#176;59&#8242;E</text>
     <text x="872" y="23" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#626975">REV.26</text>
 
-    <!-- Monumental Swiss stacked typography with smooth SMIL entrance -->
+    <!-- Single-line monumental Swiss typography with smooth SMIL entrance -->
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.55s" begin="0s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.55s" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" begin="0s" fill="freeze"/>
-      <text x="28" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-2.8" fill="#F4F5F7">Valentine</text>
+      <text x="28" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-2.3" fill="#F4F5F7">Valentine Agam<tspan fill="#FF4F00" dx="2">.</tspan></text>
     </g>
-    <g opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.55s" begin="0.12s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.55s" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" begin="0.12s" fill="freeze"/>
-      <text x="28" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-2.8" fill="#F4F5F7">Agam</text>
-    </g>
-    <rect x="207" y="173" width="11" height="11" fill="#FF4F00" opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.28s" fill="freeze"/>
-    </rect>
 
     <!-- Quiet role line & machined scanning barcode -->
-    <text x="30" y="230" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" fill="#9BA2AE">Software Engineer &#8212; ICT Officer (MySTEP)</text>
+    <text x="30" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#9BA2AE">Software Engineer &#8212; ICT Officer (MySTEP)</text>
     <rect x="532" y="220" width="2" height="14" fill="#5E6674" opacity="0.35"><animate attributeName="opacity" values="0.35;0.95;0.35;0.35" keyTimes="0;0.14;0.3;1" dur="4.2s" begin="0.00s" repeatCount="indefinite"/></rect><rect x="539" y="220" width="3" height="14" fill="#5E6674" opacity="0.35"><animate attributeName="opacity" values="0.35;0.95;0.35;0.35" keyTimes="0;0.14;0.3;1" dur="4.2s" begin="0.14s" repeatCount="indefinite"/></rect><rect x="547" y="220" width="1" height="14" fill="#5E6674" opacity="0.35"><animate attributeName="opacity" values="0.35;0.95;0.35;0.35" keyTimes="0;0.14;0.3;1" dur="4.2s" begin="0.28s" repeatCount="indefinite"/></rect><rect x="554" y="220" width="1" height="14" fill="#5E6674" opacity="0.35"><animate attributeName="opacity" values="0.35;0.95;0.35;0.35" keyTimes="0;0.14;0.3;1" dur="4.2s" begin="0.42s" repeatCount="indefinite"/></rect><rect x="562" y="220" width="2" height="14" fill="#5E6674" opacity="0.35"><animate attributeName="opacity" values="0.35;0.95;0.35;0.35" keyTimes="0;0.14;0.3;1" dur="4.2s" begin="0.56s" repeatCount="indefinite"/></rect><rect x="569" y="220" width="1" height="14" fill="#5E6674" opacity="0.35"><animate attributeName="opacity" values="0.35;0.95;0.35;0.35" keyTimes="0;0.14;0.3;1" dur="4.2s" begin="0.70s" repeatCount="indefinite"/></rect>
 
     <!-- Right chamber: precision multi-axis engraved mechanical rotary reticle -->
