@@ -12,46 +12,6 @@
       <feColorMatrix type="saturate" values="0"/>
     </filter>
   </defs>
-  <style>
-    /* Mechanical Braun-style selector bar stepping 01 -> 02 -> 03 */
-    .selector {
-      animation: step-select 9s cubic-bezier(0.22, 1, 0.36, 1) infinite;
-    }
-    /* Subtle precision rail runner along top divider */
-    .rail-runner {
-      stroke-dasharray: 48 920;
-      stroke-dashoffset: 968;
-      animation: rail-glide 7s linear infinite;
-    }
-    /* Synchronized principle square cadence */
-    .p-dot-1 { animation: dot-seq 9s ease-in-out 0s infinite; }
-    .p-dot-2 { animation: dot-seq 9s ease-in-out 3s infinite; }
-    .p-dot-3 { animation: dot-seq 9s ease-in-out 6s infinite; }
-
-    @keyframes step-select {
-      0%, 27%   { transform: translateY(0px); }
-      33%, 60%  { transform: translateY(61px); }
-      66%, 94%  { transform: translateY(122px); }
-      100%      { transform: translateY(0px); }
-    }
-    @keyframes rail-glide {
-      to { stroke-dashoffset: 0; }
-    }
-    @keyframes dot-seq {
-      0%, 32%  { opacity: 1; }
-      38%, 95% { opacity: 0.3; }
-      100%     { opacity: 1; }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      .selector, .rail-runner, .p-dot-1, .p-dot-2, .p-dot-3 {
-        animation: none !important;
-        transform: none !important;
-        opacity: 1 !important;
-      }
-      .rail-runner { opacity: 0 !important; }
-    }
-  </style>
 
   <g clip-path="url(#spec-clip-light)">
     <rect width="900" height="304" fill="url(#spec-sheen-light)"/>
@@ -66,8 +26,10 @@
 
     <!-- Structural grid lines -->
     <line x1="0" y1="36.5" x2="900" y2="36.5" stroke="#D2CEC4" stroke-width="1"/>
-    <!-- Animated precision signal pulse gliding cleanly along the header hairline -->
-    <line class="rail-runner" x1="0" y1="36.5" x2="900" y2="36.5" stroke="#E64500" stroke-width="1.2" opacity="0.85"/>
+    <!-- Gliding precision signal runner along header hairline -->
+    <line x1="0" y1="36.5" x2="900" y2="36.5" stroke="#E64500" stroke-width="1.3" stroke-dasharray="56 920" stroke-dashoffset="976" opacity="0.9">
+      <animate attributeName="stroke-dashoffset" from="976" to="0" dur="6s" repeatCount="indefinite"/>
+    </line>
 
     <line x1="0" y1="220.5" x2="900" y2="220.5" stroke="#D2CEC4" stroke-width="1"/>
     <line x1="450.5" y1="0" x2="450.5" y2="220" stroke="#D2CEC4" stroke-width="1"/>
@@ -83,8 +45,13 @@
     <text x="478" y="22" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="500" fill="#0F1012">02 / stack</text>
     <text x="872" y="22" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#7A7E86">production</text>
 
-    <!-- LEFT: 01 / Scope (3 clean rows + mechanical stepping datum bar) -->
-    <rect class="selector" x="0" y="51" width="3" height="36" fill="#E64500"/>
+    <!-- LEFT: 01 / Scope + mechanical Braun stepping selector bar -->
+    <rect x="0" y="51" width="3" height="36" fill="#E64500">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 0; 0 61; 0 61; 0 122; 0 122; 0 0"
+        keyTimes="0; 0.27; 0.33; 0.60; 0.66; 0.94; 1"
+        dur="9s" repeatCount="indefinite"/>
+    </rect>
 
     <line x1="28" y1="98.5" x2="424" y2="98.5" stroke="#E2DFD7" stroke-width="1"/>
     <line x1="28" y1="159.5" x2="424" y2="159.5" stroke="#E2DFD7" stroke-width="1"/>
@@ -101,7 +68,7 @@
     <text x="60" y="187" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#0F1012">Report</text>
     <text x="60" y="206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#4D5159">Data pipelines and dashboards turning records into insight.</text>
 
-    <!-- RIGHT: 02 / Stack (4 crisp tabular spec rows) -->
+    <!-- RIGHT: 02 / Stack -->
     <line x1="478" y1="82.5" x2="872" y2="82.5" stroke="#E2DFD7" stroke-width="1"/>
     <line x1="478" y1="128.5" x2="872" y2="128.5" stroke="#E2DFD7" stroke-width="1"/>
     <line x1="478" y1="174.5" x2="872" y2="174.5" stroke="#E2DFD7" stroke-width="1"/>
@@ -118,18 +85,24 @@
     <text x="478" y="202" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#7A7E86">infra</text>
     <text x="552" y="202" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#0F1012">Docker / Linux / Git / GitHub / VS Code</text>
 
-    <!-- BOTTOM: 03 / Operating Principles (3 machined columns with synchronized cadence) -->
-    <rect class="p-dot-1" x="28" y="241" width="5" height="5" fill="#E64500"/>
+    <!-- BOTTOM: 03 / Operating Principles (synchronized sequential square cadence) -->
+    <rect x="28" y="241" width="5" height="5" fill="#E64500">
+      <animate attributeName="opacity" values="1;1;0.25;0.25;1" keyTimes="0;0.3;0.36;0.95;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+    </rect>
     <text x="41" y="247" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0F1012">Reliability first</text>
     <text x="28" y="268" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#4D5159">Hospital staff depend on these</text>
     <text x="28" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#4D5159">systems every single day.</text>
 
-    <rect class="p-dot-2" x="328" y="241" width="5" height="5" fill="#E64500"/>
+    <rect x="328" y="241" width="5" height="5" fill="#E64500" opacity="0.25">
+      <animate attributeName="opacity" values="1;1;0.25;0.25;1" keyTimes="0;0.3;0.36;0.95;1" dur="9s" begin="3s" repeatCount="indefinite"/>
+    </rect>
     <text x="341" y="247" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0F1012">Privacy by default</text>
     <text x="328" y="268" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#4D5159">No patient data in repositories,</text>
     <text x="328" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#4D5159">under any circumstance.</text>
 
-    <rect class="p-dot-3" x="628" y="241" width="5" height="5" fill="#E64500"/>
+    <rect x="628" y="241" width="5" height="5" fill="#E64500" opacity="0.25">
+      <animate attributeName="opacity" values="1;1;0.25;0.25;1" keyTimes="0;0.3;0.36;0.95;1" dur="9s" begin="6s" repeatCount="indefinite"/>
+    </rect>
     <text x="641" y="247" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0F1012">Reversible changes</text>
     <text x="628" y="268" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#4D5159">Small, reviewed, documented</text>
     <text x="628" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#4D5159">releases built for clean rollback.</text>

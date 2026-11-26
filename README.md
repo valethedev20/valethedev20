@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/plate-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/plate-light.svg" />
-  <img alt="Valentine Agam — Software Engineer, Hospital Miri" src="assets/plate-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
+  <img alt="Valentine Agam — Software Engineer, Hospital Miri" src="assets/hero-dark.svg" width="100%" />
 </picture>
 
 <br />
@@ -13,9 +13,9 @@ Developing and maintaining internal systems at **Hospital Miri, Jabatan Kesihata
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/spec-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/spec-light.svg" />
-  <img alt="Scope, Stack, and Operating Principles" src="assets/spec-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/specs-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/specs-light.svg" />
+  <img alt="Scope, Stack, and Operating Principles" src="assets/specs-dark.svg" width="100%" />
 </picture>
 
 <br />
