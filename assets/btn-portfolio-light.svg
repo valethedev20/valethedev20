@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="228" height="38" viewBox="0 0 228 38" role="img" aria-label="Portfolio at valeport.space">
+  <rect width="228" height="38" rx="9" fill="#059669"/>
+  <g transform="translate(15, 11)" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="8" cy="8" r="6.5"/>
+    <path d="M1.5 8 h13 M8 1.5 a9 9 0 0 1 0 13 M8 1.5 a9 9 0 0 0 0 13"/>
+  </g>
+  <text x="40" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF">Portfolio</text>
+  <line x1="106" y1="11.5" x2="106" y2="26.5" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="1"/>
+  <text x="117" y="23.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="500" fill="#FFFFFF" opacity="0.92">valeport.space</text>
+</svg>

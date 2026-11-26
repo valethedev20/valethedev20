@@ -1,56 +1,53 @@
-<p align="center">
-  <img src="banner.svg" alt="Valentine Agam — Software Engineer, Hospital Miri" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg" />
+  <img alt="Valentine Agam — Software Engineer &amp; ICT Officer, Hospital Miri" src="assets/banner-dark.svg" width="100%" />
+</picture>
+
+<p>
+  <a href="https://www.valeport.space">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/btn-portfolio-light.svg" />
+      <img alt="Portfolio — valeport.space" src="assets/btn-portfolio-dark.svg" height="38" />
+    </picture>
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/valentine-a-a278a7254">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/btn-linkedin-light.svg" />
+      <img alt="LinkedIn" src="assets/btn-linkedin-dark.svg" height="38" />
+    </picture>
+  </a>
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/valentine-a-a278a7254"><b>LinkedIn</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://www.valeport.space"><b>Portfolio</b></a>
-  &nbsp;·&nbsp;
-  📍 Sarawak, Malaysia
-</p>
+### About this account
+
+I'm a software engineer at **Hospital Miri, Jabatan Kesihatan Sarawak**. This account is dedicated to developing and maintaining the hospital's internal systems — focused on dependable daily operations, strict data privacy, and maintainable software.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/focus-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/focus-light.svg" />
+  <img alt="Core focus areas: Maintain, Build, Report" src="assets/focus-dark.svg" width="100%" />
+</picture>
+
+### Tech stack
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg" />
+  <img alt="Tech stack: Backend, Frontend, Data, and Infra &amp; tools" src="assets/stack-dark.svg" width="100%" />
+</picture>
+
+### Working principles
+
+| # | Principle | Practice |
+| :--- | :--- | :--- |
+| `01` | **Reliability first** | Hospital staff depend on these systems every day. |
+| `02` | **Data privacy by default** | No patient data in repositories, ever. |
+| `03` | **Small, reviewed changes** | Documented, testable, and easy to roll back. |
 
 ---
 
-### 🏥 About this account
-
-I'm a software engineer at **Hospital Miri, Jabatan Kesihatan Sarawak**.
-This account is where I develop and maintain the hospital's internal systems.
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <b>🛠️ Maintain</b><br/>
-      <sub>Bug fixes, updates and keeping internal systems running reliably.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>🚀 Build</b><br/>
-      <sub>Web apps and backend services that support daily hospital operations.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>📊 Report</b><br/>
-      <sub>Data pipelines and dashboards that turn records into usable insight.</sub>
-    </td>
-  </tr>
-</table>
-
-### 🧰 Tech stack
-
-| Area | Tools |
-|---|---|
-| **Backend** | <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs" alt="Python, FastAPI, Flask, Node.js" height="36" /> |
-| **Frontend** | <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind" alt="TypeScript, JavaScript, React, Next.js, Tailwind" height="36" /> |
-| **Data** | <img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase" alt="PostgreSQL, MongoDB, Supabase" height="36" /> |
-| **Infra & tools** | <img src="https://skillicons.dev/icons?i=docker,linux,git,github,vscode" alt="Docker, Linux, Git, GitHub, VS Code" height="36" /> |
-
-### 🤝 Working principles
-
-- **Reliability first:** hospital staff depend on these systems every day.
-- **Data privacy by default:** no patient data in repositories, ever.
-- **Small, reviewed changes:** documented and easy to roll back.
-
----
-
-<p align="center">
-  <sub>For collaboration or system enquiries, reach me on <a href="https://www.linkedin.com/in/valentine-a-a278a7254">LinkedIn</a>.</sub>
-</p>
+<sub>For collaboration or system enquiries, connect on <a href="https://www.linkedin.com/in/valentine-a-a278a7254">LinkedIn</a> or visit <a href="https://www.valeport.space">valeport.space</a>.</sub>
